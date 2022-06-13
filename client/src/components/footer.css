@@ -1,0 +1,78 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/sweetist-footer.jpg");
+  background-size: cover;
+  padding: 10vh 0;
+  margin-top: 10vh;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 5vw;
+  width: 80%;
+}
+
+.footer-desc {
+  flex: 2;
+}
+
+.footer-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "congenial", serif;
+}
+
+.footer-contact {
+  flex: 1;
+}
+
+.footer-links {
+  flex: 1;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+
+.footer li {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: white;
+  font-weight: 400;
+}
+
+.footer a:hover {
+  font-weight: 600;
+}
+
+.footer-icons {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-links {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-desc {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .footer-links {
+    display: none;
+  }
+}

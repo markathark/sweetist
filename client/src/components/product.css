@@ -1,0 +1,43 @@
+.p-container {
+  width: 30%;
+}
+
+.p-img {
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+
+  margin-bottom: 20px;
+}
+
+.p-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+
+  transition-duration: 0.7s;
+}
+
+.p-img:hover img {
+  transform: scale(1.2);
+  transition-duration: 0.7s;
+}
+
+.p-desc {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .p-container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .p-container {
+    width: 100%;
+  }
+}

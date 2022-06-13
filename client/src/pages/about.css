@@ -1,0 +1,27 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  margin: 0 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.about-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-content img {
+  margin: 4vh 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-content {
+    margin: 0 10%;
+  }
+}

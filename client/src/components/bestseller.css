@@ -1,0 +1,11 @@
+.bestseller_wrapper {
+  margin: 20vh 0;
+}
+
+.bs-title {
+  font-size: 2rem;
+  font-family: "congenial", serif;
+  color: #cc99cc;
+  margin-bottom: 5vh;
+  text-align: center;
+}

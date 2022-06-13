@@ -1,0 +1,33 @@
+.header-wrapper {
+  margin: 15vh 0 10vh 0;
+  padding: 7vh 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../img/sweetist-header.jpg");
+  background-size: cover;
+}
+
+.header-title {
+  color: white;
+  font-family: "congenial", serif;
+  padding: 5px 0 2vh 0;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.header-desc {
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header-title {
+    font-size: 2rem;
+  }
+  .header-desc {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,76 @@
+.intro-wrapper {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center top;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.logo {
+  width: 350px;
+  margin-top: 4vh;
+}
+
+.cta {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.7rem;
+  display: flex;
+  color: #cc99cc;
+  align-items: center;
+  flex-direction: column;
+  font-family: congenial, serif;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+  width: 600px;
+}
+
+.cta-link {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 15px 50px;
+  border-radius: 40px;
+  transition: 1s;
+  font-family: "Lato", sans-serif;
+  background: orange;
+  border: 2px solid transparent;
+  color: white;
+  line-height: 1.5rem;
+}
+
+.cta-link:hover {
+  background: none;
+  border: 2px solid #cc99cc;
+  color: #cc99cc;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-top: 10vh;
+    width: 60vw;
+  }
+
+  .cta {
+    font-size: 1.3rem;
+    width: 80%;
+    line-height: 1.8rem;
+  }
+
+  .cta-link {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .cta {
+    width: 70%;
+  }
+}

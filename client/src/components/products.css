@@ -1,0 +1,19 @@
+.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh 5%;
+  justify-content: flex-start;
+  margin: 0 10%;
+}
+
+@media screen and (max-width: 1200px) {
+  .products-wrapper {
+    gap: 5vh 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .products-wrapper {
+    flex-direction: column;
+  }
+}

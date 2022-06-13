@@ -1,0 +1,12 @@
+.checkout-details {
+  padding: 200px 10% 0 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkout-title {
+  font-size: 2rem;
+  font-family: "congenial", serif;
+  margin-bottom: 3vh;
+}
